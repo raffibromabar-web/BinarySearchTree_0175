@@ -17,4 +17,9 @@ public:
         leftChild = l;
         rightChilt = r;
     }
+};
+
+class BinaryTree{
+
+    
 }
