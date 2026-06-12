@@ -38,5 +38,11 @@ public :
             newNode->info = element;
             newNode->leftChild = nullptr;
             newNode->rightChilt = nullptr;
+
+            Node* parent = nullptr;
+            Node* currentNode = nullptr;
+            search(element, parent, currentNode);
+
+            
         }
 };
