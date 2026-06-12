@@ -43,6 +43,10 @@ public :
             Node* currentNode = nullptr;
             search(element, parent, currentNode);
 
-            
+            //membuat coditional statement
+            if(parent == nullptr){
+                ROOT = newNode;
+                return;
+            }
         }
 };
