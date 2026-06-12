@@ -69,4 +69,8 @@ public :
             else
                 currentNode = currentNode->rightChilt;
         }
+
+        void inorder(Node* ptr){
+            
+        }
 };
