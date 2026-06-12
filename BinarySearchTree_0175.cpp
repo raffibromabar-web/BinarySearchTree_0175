@@ -53,6 +53,9 @@ public :
             {
                 parent->leftChild = newNode;
             }
-            
+            else if (element > parent->info)
+            {
+                parent->rightChilt = newNode;
+            }
         }
 };
