@@ -8,4 +8,11 @@ public:
     string info;
     Node* leftChild;
     Node* rightChilt;
+
+    
+    //membuat constructor untuk class node
+    Node(string i, Node* 1, Node* r){
+        
+        
+    }
 }
